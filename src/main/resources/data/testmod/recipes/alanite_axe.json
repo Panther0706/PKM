@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa ",
+    "aNR",
+    " R "
+  ],
+  "key": {
+    "a": {
+      "item": "testmod:alanite_bar"
+    },
+    "N": {
+      "item": "minecraft:netherite_axe"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "testmod:alanite_axe",
+    "count": 1
+  }
+}
