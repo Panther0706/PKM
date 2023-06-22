@@ -5,11 +5,11 @@ plugins {
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
 
-version = '0.0.1-1.20.1'
-group = 'net.panther0706.testmod'
+version = '1.0.0-1.20.1'
+group = 'net.panther0706.pkm'
 
 base {
-    archivesName = 'testmod'
+    archivesName = 'pkm'
 }
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
@@ -77,10 +77,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'testmod'
+            property 'forge.enabledGameTestNamespaces', 'pkm'
 
             mods {
-                testmod {
+                pkm {
                     source sourceSets.main
                 }
             }
@@ -93,10 +93,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'testmod'
+            property 'forge.enabledGameTestNamespaces', 'pkm'
 
             mods {
-                testmod {
+                pkm {
                     source sourceSets.main
                 }
             }
@@ -112,10 +112,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'testmod'
+            property 'forge.enabledGameTestNamespaces', 'pkm'
 
             mods {
-                testmod {
+                pkm {
                     source sourceSets.main
                 }
             }
@@ -128,11 +128,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            // Specify the 'testmod' for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'testmod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            // Specify the 'pkm' for data generation, where to output the resulting resource, and where to look for existing resources.
+            args '--mod', 'pkm', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                testmod {
+                pkm {
                     source sourceSets.main
                 }
             }
@@ -187,7 +187,7 @@ def replaceProperties = [
         minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
         forge_version: forge_version, forge_version_range: forge_version_range,
         loader_version_range: loader_version_range,
-        'testmod': 'testmod', mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+        'pkm': 'pkm', mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
         mod_authors: mod_authors, mod_description: mod_description
 ]
 processResources {
@@ -203,7 +203,7 @@ processResources {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : 'testmod',
+                "Specification-Title"     : 'pkm',
                 "Specification-Vendor"    : mod_authors,
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,

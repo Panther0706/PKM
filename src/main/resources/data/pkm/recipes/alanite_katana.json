@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  g",
+    " R ",
+    "/  "
+  ],
+  "key": {
+    "g": {
+      "item": "pkm:alanite_bar"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "/": {
+      "item": "pkm:katana_handle"
+    }
+  },
+  "result": {
+    "item": "pkm:alanite_katana",
+    "count": 1
+  }
+}

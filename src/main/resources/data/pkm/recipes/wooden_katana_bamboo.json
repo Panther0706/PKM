@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  w",
+    " w ",
+    "/  "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "/": {
+      "item": "pkm:makeshift_katana_handle"
+    }
+  },
+  "result": {
+    "item": "pkm:wooden_katana",
+    "count": 1
+  }
+}

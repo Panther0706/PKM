@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pkm:item/iron_katana_handle"
+  },
+  "display": {
+    "gui": {
+      "rotation": [0, 0, -24],
+      "translation": [0.5, -0.5, 0],
+      "scale": [1, 1, 1]
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.5, 0.5, 1]
+    },
+    "thirdperson_righthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.5, 0.5, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.5, 0.5, 1]
+    }
+  }
+}

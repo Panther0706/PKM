@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  n",
+    " E ",
+    "/  "
+  ],
+  "key": {
+    "n": {
+      "item": "pkm:starlight_bar"
+    },
+    "E": {
+      "item": "minecraft:end_crystal"
+    },
+    "/": {
+      "item": "pkm:katana_handle"
+    }
+  },
+  "result": {
+    "item": "pkm:starlight",
+    "count": 1
+  }
+}
