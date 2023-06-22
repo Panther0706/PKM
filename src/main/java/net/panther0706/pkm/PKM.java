@@ -46,6 +46,7 @@ public class PKM
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            //Katanas
             //Katana Handle
             event.getEntries().putAfter(Items.STICK.getDefaultInstance(),
                     PKMCraftingItems.KATANA_HANDLE.get().getDefaultInstance(),
@@ -76,6 +77,7 @@ public class PKM
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
         if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            //Katanas
             //Wooden Katana
             event.getEntries().putAfter(Items.WOODEN_SWORD.getDefaultInstance(),
                     PKMWeapons.WOODEN_KATANA.get().getDefaultInstance(),

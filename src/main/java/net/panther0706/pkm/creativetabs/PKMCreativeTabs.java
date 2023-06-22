@@ -19,7 +19,7 @@ public class PKMCreativeTabs {
 
     public static final RegistryObject<CreativeModeTab> PKM_TAB = TABS.register("pkm_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("Panther's Katana Mod"))
+                    .title(Component.literal("Panther's Katana Mod"))
                     .icon(PKMCraftingItems.MAKESHIFT_KATANA_HANDLE.get()::getDefaultInstance)
                     .displayItems((displayParameters, displayOutput) -> {
                         displayOutput.accept(PKMCraftingItems.MAKESHIFT_KATANA_HANDLE.get());
@@ -41,6 +41,7 @@ public class PKMCreativeTabs {
                     })
                     .build()
     );
+
 
     public static void Register(IEventBus eventBus) {
         TABS.register(eventBus);

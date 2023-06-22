@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pkm:wooden_katana_oak",
+      "pkm:wooden_katana_acacia",
+      "pkm:wooden_katana_bamboo",
+      "pkm:wooden_katana_birch",
+      "pkm:wooden_katana_cherry",
+      "pkm:wooden_katana_crimson",
+      "pkm:wooden_katana_dark_oak",
+      "pkm:wooden_katana_jungle",
+      "pkm:wooden_katana_mangrove",
+      "pkm:wooden_katana_spruce",
+      "pkm:wooden_katana_warped"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "psm:makeshift_katana_handle"
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:makeshift_katana_handle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
