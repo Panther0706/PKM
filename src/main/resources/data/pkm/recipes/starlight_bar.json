@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pkm:starlight_ore"
+  },
+  "result": "pkm:starlight_bar",
+  "experience": 5,
+  "cookingtime": 200
+}

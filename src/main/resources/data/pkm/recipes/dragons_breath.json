@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "CEC",
+    "#C#"
+  ],
+  "key": {
+    "#": {
+      "item": "pkm:starlight_bar"
+    },
+    "S": {
+      "item": "pkm:starlight"
+    },
+    "C": {
+      "item": "minecraft:dragon_breath"
+    },
+    "E": {
+      "item": "pkm:scorched_earth"
+    }
+  },
+  "result": {
+    "item": "pkm:dragons_breath",
+    "count": 1
+  }
+}

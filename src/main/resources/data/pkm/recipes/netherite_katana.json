@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  n",
+    " n ",
+    "/  "
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "/": {
+      "item": "pkm:katana_handle"
+    }
+  },
+  "result": {
+    "item": "pkm:netherite_katana",
+    "count": 1
+  }
+}

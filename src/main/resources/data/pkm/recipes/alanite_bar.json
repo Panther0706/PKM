@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pkm:alanite_ore"
+  },
+  "result": "pkm:alanite_bar",
+  "experience": 1.5,
+  "cookingtime": 200
+}

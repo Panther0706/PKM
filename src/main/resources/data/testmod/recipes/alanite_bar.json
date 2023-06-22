@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "testmod:alanite_ore"
-  },
-  "result": "testmod:alanite_bar",
-  "experience": 1.5,
-  "cookingtime": 200
-}
