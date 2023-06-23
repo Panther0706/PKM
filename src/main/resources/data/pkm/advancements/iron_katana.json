@@ -6,25 +6,18 @@
     ]
   },
   "criteria": {
-    "has_item": {
+    "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
-          "item": "psm:makeshift_katana_handle"
+          "item": "minecraft:iron_ingot"
         }]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "psm:makeshift_katana_handle"
       }
     }
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_iron_ingot"
     ]
   ]
 }

@@ -6,25 +6,18 @@
     ]
   },
   "criteria": {
-    "has_item": {
+    "has_diamond": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
-          "item": "psm:iron_katana_handle"
+          "item": "minecraft:diamond"
         }]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "psm:iron_katana_handle"
       }
     }
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_diamond"
     ]
   ]
 }

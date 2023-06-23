@@ -8,25 +8,18 @@
     ]
   },
   "criteria": {
-    "has_item": {
+    "has_amethyst_shard": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
-          "item": "minecraft:end_crystal"
+          "item": "minecraft:amethyst_shard"
         }]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:end_crystal"
       }
     }
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_amethyst_shard"
     ]
   ]
 }

@@ -4,31 +4,23 @@
     "recipes": [
       "pkm:netherite_katana",
       "pkm:alanite_katana",
-      "pkm:starlight",
       "pkm:scorched_earth",
       "pkm:dragons_breath"
     ]
   },
   "criteria": {
-    "has_item": {
+    "has_katana_handle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
-          "item": "psm:katana_handle"
+          "item": "pkm:katana_handle"
         }]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "psm:katana_handle"
       }
     }
   },
   "requirements": [
     [
-      "has_item",
-      "has_the_recipe"
+      "has_katana_handle"
     ]
   ]
 }

@@ -16,7 +16,7 @@
     ]
   },
   "criteria": {
-    "has_item": {
+    "has_makeshift_katana_handle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
@@ -33,7 +33,7 @@
   },
   "requirements": [
     [
-      "has_item",
+      "has_makeshift_katana_handle",
       "has_the_recipe"
     ]
   ]
